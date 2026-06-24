@@ -1,139 +1,301 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Weslley's Barbearia</title>
-    <link rel="stylesheet" href="index.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Weslley's Barbearia — Nota 5.0 no Booksy. Cortes modernos e tradicionais em São Paulo. Agende pelo Booksy ou WhatsApp." />
+  <title>Weslley's Barbearia</title>
 
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
 </head>
 <body>
-    <nav>
-    <ul>
-        <li><a href="https://booksy.com/pt-br/367630_weslleys-barbearia_barbearias_1047773_sao-paulo#reviews-section"
-               target="_blank"
-               class="btn-menu-booksy">
-               Avaliações
-            </a> 
-        </li>
-            
+
+  <!-- ===== NAV ===== -->
+  <nav id="navbar">
+    <div class="nav-inner">
+      <span class="nav-brand">Weslley's</span>
+
+      <button class="hamburger" id="hamburger" aria-label="Abrir menu" aria-expanded="false" aria-controls="nav-menu">
+        <span></span><span></span><span></span>
+      </button>
+
+      <ul class="nav-menu" id="nav-menu">
         <li>
-            <a href="https://booksy.com/pt-br/instant-experiences/widget/367630?utm_source=ig&utm_medium=social&utm_content=link_in_bio"
-               target="_blank"
-               class="btn-menu-booksy">
-                Agende seu Horário
-            </a>
+          <a href="https://booksy.com/pt-br/367630_weslleys-barbearia_barbearias_1047773_sao-paulo#reviews-section"
+             target="_blank" rel="noopener" class="btn-menu-booksy">
+            <i class="fa-solid fa-star"></i> Avaliações
+          </a>
         </li>
-
-        <li><a href="https://www.google.com/maps/place/Av.+Jos%C3%A9+Joaquim+Seabra,+1002+-+Jardim+Ivana,+S%C3%A3o+Paulo+-+SP,+05364-000/@-23.5702274,-46.7535522,1033m/data=!3m2!1e3!4b1!4m6!3m5!1s0x94ce55e758b2d7f1:0xc8e67a500161d487!8m2!3d-23.5702274!4d-46.7535522!16s%2Fg%2F11smvkb0kb?entry=ttu&g_ep=EgoyMDI2MDYxNi4wIKXMDSoASAFQAw%3D%3D"
-               target="_blank"
-               class="btn-menu-booksy">
-                Como Chegar
-            </a>
+        <li>
+          <a href="https://booksy.com/pt-br/instant-experiences/widget/367630?utm_source=ig&utm_medium=social&utm_content=link_in_bio"
+             target="_blank" rel="noopener" class="btn-menu-booksy">
+            <i class="fa-solid fa-calendar-check"></i> Agendar
+          </a>
         </li>
-    </ul>
-</nav>
-
-    <header>
-        <div class="center">
-            <img src="./img/img.png"></img>
-                
-        </div>
-
-        <div class="nome">
-            <h1>Weslley's Barbearia</h1>
-        </div>
-
-        <div class="boasvindas">
-                <p>Bem-vindo à barbearia Weslley's!</p>
-                <p>Aqui, oferecemos cortes de cabelo modernos e tradicionais, além de serviços de barba e cuidados pessoais.</p> 
-                <p>Com um ambiente acolhedor e profissionais experientes, garantimos que cada cliente saia satisfeito.</p> 
-                <p>Venha nos visitar e experimente um atendimento de qualidade em um espaço dedicado ao seu estilo e bem-estar.</p>
-        </div>
-
-        <div class="servicos">
-    <h2>
-        <i class="fa-solid fa-scissors"></i>
-        Serviços Oferecidos
-    </h2>
-
-    <ul>
-        <li>Corte</li>
-        <li>Barba</li>
-        <li>Progressiva</li>
-        <li>Penteado</li>
-        <li>Luzes</li>
-        <li>Platinado</li>
-    </ul>
-</div>
-
-        <div class="endereco">
-                <h2><i class="fa-solid fa-location-dot"></i> Localização</h2>
-                <p>Av. José Joaquim Seabra, 1002 - Jardim Ivana, São Paulo - SP</p  >
-                
-                <iframe
-        src="https://www.google.com/maps?q=Av.%20José%20Joaquim%20Seabra,%201002&output=embed"
-        width="600"
-        height="450"
-        style="border:0;"
-        allowfullscreen=""
-        loading="lazy">
-    </iframe>
-
-    <a
-    href="https://www.google.com/maps/search/?api=1&query=Av.+José+Joaquim+Seabra,+1002"
-    target="_blank">
-    <button>Como Chegar</button>
-    </a>
-        </div>  
-
-        <div class="funcionamento">
-                <h2><i class="fa-solid fa-clock"></i> Horário de Funcionamento</h2>
-                <ul>
-                    <li>Segunda a Sábado: 8h30 - 20h</li>
-                    <li>Domingo: 10h - 14h</li>
-                </ul>
-        </div>
-
-       <div class="agendamento">
-    <h2>Agende seu Horário</h2>
-    <p>Escolha a forma de contato que preferir:</p>
-
-    <div class="botoes-agendamento">
-
-        <a href="https://booksy.com/pt-br/367630_weslleys-barbearia_barbearias_1047773_sao-paulo"
-           target="_blank"
-           class="btn-booksy">
-            <i class="fa-solid fa-calendar-check"></i>
-            Booksy
-        </a>
-
-        <a href="https://wa.me/5511982858333?text=Olá!%20Gostaria%20de%20agendar%20um%20horário%20na%20Weslley's%20Barbearia."
-           target="_blank"
-           class="btn-whatsapp">
-           <i class="fa-brands fa-whatsapp"></i> 
-           WhatsApp
-        </a>
-
-        <a href="https://www.instagram.com/weslleys_barbearia"
-           target="_blank"
-           class="btn-instagram">
-            <i class="fa-brands fa-instagram"></i>
-             Instagram
-        </a>
-
+        <li>
+          <a href="https://www.google.com/maps/place/Av.+Jos%C3%A9+Joaquim+Seabra,+1002"
+             target="_blank" rel="noopener" class="btn-menu-booksy">
+            <i class="fa-solid fa-location-dot"></i> Como Chegar
+          </a>
+        </li>
+      </ul>
     </div>
-</div>
+  </nav>
 
-        
-       <footer>
-    <p>© 2026 Weslley's Barbearia - Todos os direitos reservados</p>
-</footer>
+  <!-- ===== MAIN ===== -->
+  <main>
 
-    </header>
+    <!-- HERO -->
+    <section class="hero">
+      <div class="center">
+        <img src="assets/img/img.png" alt="Logo Weslley's Barbearia" />
+      </div>
+
+      <div class="nome">
+        <h1>Weslley's Barbearia</h1>
+        <div class="badges-hero">
+          <span class="badge-booksy">
+            <i class="fa-solid fa-medal"></i> Recomendado pelo Booksy
+          </span>
+        </div>
+      </div>
+
+      <!-- RATING BAR -->
+      <div class="rating-bar">
+        <div class="rating-stars">
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+        </div>
+        <span class="rating-score">5.0</span>
+        <span class="rating-count">62 avaliações</span>
+        <a href="https://booksy.com/pt-br/367630_weslleys-barbearia_barbearias_1047773_sao-paulo#reviews-section"
+           target="_blank" rel="noopener" class="rating-link">Ver no Booksy →</a>
+      </div>
+
+      <div class="boasvindas">
+        <p>Bem-vindo à barbearia Weslley's!</p>
+        <p>Aqui, oferecemos cortes de cabelo modernos e tradicionais, além de serviços de barba e cuidados pessoais.</p>
+        <p>Com um ambiente acolhedor e profissionais experientes, garantimos que cada cliente saia satisfeito.</p>
+        <p>Venha nos visitar e experimente um atendimento de qualidade em um espaço dedicado ao seu estilo e bem-estar.</p>
+      </div>
+    </section>
+
+    <!-- DESTAQUE: COMBO -->
+    <section class="card combo-destaque">
+      <div class="combo-label">
+        <i class="fa-solid fa-fire"></i> Mais Popular
+      </div>
+      <h2>Combo Corte + Barba</h2>
+      <p class="combo-desc">O pacote completo para sair renovado. Corte + barba feitos pelos nossos profissionais.</p>
+      <div class="combo-info">
+        <span class="combo-preco">R$ 70</span>
+        <span class="combo-duracao"><i class="fa-regular fa-clock"></i> 1 hora</span>
+      </div>
+      <a href="https://booksy.com/pt-br/instant-experiences/widget/367630?utm_source=ig&utm_medium=social&utm_content=link_in_bio"
+         target="_blank" rel="noopener" class="btn-agendar-combo">
+        <i class="fa-solid fa-calendar-check"></i> Agendar Combo
+      </a>
+    </section>
+
+    <!-- TABELA DE SERVIÇOS E PREÇOS -->
+    <section class="card servicos">
+      <h2><i class="fa-solid fa-scissors"></i> Serviços e Preços</h2>
+
+      <div class="servicos-grupo">
+        <h3 class="grupo-titulo">Serviços Gerais</h3>
+        <div class="servicos-grid">
+          <div class="servico-item">
+            <div class="servico-info">
+              <span class="servico-nome">Corte</span>
+              <span class="servico-duracao"><i class="fa-regular fa-clock"></i> 50 min</span>
+            </div>
+            <span class="servico-preco">R$ 45</span>
+          </div>
+          <div class="servico-item">
+            <div class="servico-info">
+              <span class="servico-nome">Barba</span>
+              <span class="servico-duracao"><i class="fa-regular fa-clock"></i> 30 min</span>
+            </div>
+            <span class="servico-preco">R$ 30</span>
+          </div>
+          <div class="servico-item">
+            <div class="servico-info">
+              <span class="servico-nome">Pezinho</span>
+              <span class="servico-duracao"><i class="fa-regular fa-clock"></i> 15 min</span>
+            </div>
+            <span class="servico-preco">R$ 15</span>
+          </div>
+          <div class="servico-item">
+            <div class="servico-info">
+              <span class="servico-nome">Penteado</span>
+              <span class="servico-duracao"><i class="fa-regular fa-clock"></i> 30 min</span>
+            </div>
+            <span class="servico-preco">R$ 30</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="servicos-grupo">
+        <h3 class="grupo-titulo">Combo</h3>
+        <div class="servicos-grid">
+          <div class="servico-item destaque">
+            <div class="servico-info">
+              <span class="servico-nome">Corte + Barba</span>
+              <span class="servico-duracao"><i class="fa-regular fa-clock"></i> 1 hora</span>
+            </div>
+            <span class="servico-preco">R$ 70</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="servicos-grupo">
+        <h3 class="grupo-titulo">Tratamentos Químicos</h3>
+        <div class="servicos-grid">
+          <div class="servico-item">
+            <div class="servico-info">
+              <span class="servico-nome">Progressiva</span>
+              <span class="servico-duracao"><i class="fa-regular fa-clock"></i> 1 hora</span>
+            </div>
+            <span class="servico-preco">R$ 75</span>
+          </div>
+          <div class="servico-item">
+            <div class="servico-info">
+              <span class="servico-nome">Luzes</span>
+              <span class="servico-duracao"><i class="fa-regular fa-clock"></i> 40 min</span>
+            </div>
+            <span class="servico-preco">R$ 90</span>
+          </div>
+          <div class="servico-item">
+            <div class="servico-info">
+              <span class="servico-nome">Platinado</span>
+              <span class="servico-duracao"><i class="fa-regular fa-clock"></i> 1 hora</span>
+            </div>
+            <span class="servico-preco">R$ 130</span>
+          </div>
+        </div>
+      </div>
+
+      <a href="https://booksy.com/pt-br/instant-experiences/widget/367630?utm_source=ig&utm_medium=social&utm_content=link_in_bio"
+         target="_blank" rel="noopener" class="btn-ver-booksy">
+        <i class="fa-solid fa-calendar-check"></i> Agendar pelo Booksy
+      </a>
+    </section>
+
+    <!-- EQUIPE -->
+    <section class="card equipe">
+      <h2><i class="fa-solid fa-user-tie"></i> Nossa Equipe</h2>
+      <div class="equipe-grid">
+        <div class="membro">
+          <div class="membro-avatar">
+            <i class="fa-solid fa-scissors"></i>
+          </div>
+          <h3>Wesley Almeida</h3>
+          <p>Barbeiro Profissional</p>
+        </div>
+        <div class="membro">
+          <div class="membro-avatar">
+            <i class="fa-solid fa-scissors"></i>
+          </div>
+          <h3>Roger Flausino</h3>
+          <p>Barbeiro Profissional</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- COMODIDADES -->
+    <section class="card comodidades">
+      <h2><i class="fa-solid fa-circle-check"></i> Comodidades</h2>
+      <div class="comodidades-grid">
+        <div class="comodidade-item">
+          <i class="fa-solid fa-credit-card"></i>
+          <span>Cartão aceito</span>
+        </div>
+        <div class="comodidade-item">
+          <i class="fa-solid fa-wheelchair"></i>
+          <span>Acessível PcD</span>
+        </div>
+        <div class="comodidade-item">
+          <i class="fa-solid fa-paw"></i>
+          <span>Pet-friendly</span>
+        </div>
+        <div class="comodidade-item">
+          <i class="fa-solid fa-wifi"></i>
+          <span>Wi-Fi grátis</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- LOCALIZAÇÃO -->
+    <section class="card endereco">
+      <h2><i class="fa-solid fa-location-dot"></i> Localização</h2>
+      <p>Av. José Joaquim Seabra, 1002 — Jardim Ivana, São Paulo - SP, 05364-000</p>
+
+      <div class="map-wrapper">
+        <iframe
+          src="https://www.google.com/maps?q=Av.+Jos%C3%A9+Joaquim+Seabra,+1002,+S%C3%A3o+Paulo&output=embed"
+          title="Localização Weslley's Barbearia"
+          allowfullscreen
+          loading="lazy">
+        </iframe>
+      </div>
+
+      <a href="https://www.google.com/maps/search/?api=1&query=Av.+José+Joaquim+Seabra,+1002"
+         target="_blank" rel="noopener" class="btn-mapa">
+        <i class="fa-solid fa-diamond-turn-right"></i> Como Chegar
+      </a>
+    </section>
+
+    <!-- HORÁRIOS -->
+    <section class="card funcionamento">
+      <h2><i class="fa-solid fa-clock"></i> Horário de Funcionamento</h2>
+      <ul>
+        <li><span>Segunda a Sábado</span><span>8h30 – 20h</span></li>
+        <li><span>Domingo</span><span>10h – 14h</span></li>
+      </ul>
+    </section>
+
+    <!-- AGENDAMENTO -->
+    <section class="card agendamento">
+      <h2>Agende seu Horário</h2>
+      <p>Escolha a forma de contato que preferir:</p>
+
+      <div class="botoes-agendamento">
+        <a href="https://booksy.com/pt-br/367630_weslleys-barbearia_barbearias_1047773_sao-paulo"
+           target="_blank" rel="noopener" class="btn-booksy">
+          <i class="fa-solid fa-calendar-check"></i> Booksy
+        </a>
+        <a href="https://wa.me/5511982858333?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20um%20hor%C3%A1rio%20na%20Weslley%27s%20Barbearia."
+           target="_blank" rel="noopener" class="btn-whatsapp">
+          <i class="fa-brands fa-whatsapp"></i> WhatsApp
+        </a>
+        <a href="https://www.instagram.com/weslleys_barbearia"
+           target="_blank" rel="noopener" class="btn-instagram">
+          <i class="fa-brands fa-instagram"></i> Instagram
+        </a>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>© 2026 Weslley's Barbearia — Todos os direitos reservados</p>
+    <p class="footer-sub">
+      <a href="https://booksy.com/pt-br/367630_weslleys-barbearia_barbearias_1047773_sao-paulo"
+         target="_blank" rel="noopener">
+        <i class="fa-solid fa-star"></i> 5.0 · 62 avaliações no Booksy
+      </a>
+    </p>
+  </footer>
+
+  <script src="assets/js/main.js" defer></script>
+
 </body>
 </html>
